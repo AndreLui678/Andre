@@ -1,0 +1,60 @@
+body {
+    font-size: 40px;
+    background-image: url(Love.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    padding: 10px 30px;
+    font-size: 70%;
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid #be1313;
+    border-style: groove;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button strong {
+    font-weight: bolder;
+}
+
+.button:active {
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
+
+div {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 250px;
+    width: 700px;
+    height: 500px;
+    border: 5px #be1313;
+    border-radius: 50px;
+    border-style: solid;
+}
+
+#B {
+    position: relative;
+    top: 320px;
+    left: 300px;
+}
+
+#B1 {
+    position: relative;
+    top: -400px;
+    right: 200px;
+}
+
+#B2 {
+    position: relative;
+    top: 30px;
+    right: 600px;
+}
+
+@media (max-width: 768px) {
+    /* Estilos para telas menores que 768px */
+}
